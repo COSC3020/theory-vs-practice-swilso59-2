@@ -2,6 +2,10 @@
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
+  - Asymptotic analysis ignores constant factors and lower order terms.
+  - Hardware is anot often considered while conducting asymtotic analysis
+  - The use of loose bound during analysis. This could lead to an algorthim being much faster
+    then the analysis suggests. 
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
