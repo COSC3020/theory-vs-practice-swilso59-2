@@ -34,7 +34,10 @@ Add your answers to this markdown file.
 
 ## Plagiarism Acknowledgment
 
-
+I Remember having difficulty with this assignment prior. I reviewed the repositroy and the comments from 
+the repository https://github.com/COSC3020/theory-vs-practice-swilso59-1.git
+it looked like I was not being specific enough in that there would have to be multipe causes for a time difference of that 
+significants.
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
