@@ -29,6 +29,9 @@
   - While an unbalanced tree could increase the search time from logarithmic to linear, the change from 6.65 to 100 seconds makes me think that other factors are also envolved
   - For example, if there were multiple programs running simultaneously, or you are running this search on a different system entirely
   - The combination of an unbalanced tree and the senario which it is being run in could explain such a large difference in runtime
+  - Some additional reasons that could contribute to this large search time could be the implementation of the binary search tree, this time focusing on things like extra comparisions or
+    excessive logging of each step of the search could contribute to the change in runtime
+  - If a recurssive approach is used. Inefficient recursion can lead to excessive recursive calls which can cause an increase in memory usage and processing time an iterative approach would prevent this from happening
 
 Add your answers to this markdown file.
 
@@ -38,6 +41,9 @@ I Remember having difficulty with this assignment prior. I reviewed the repositr
 the repository https://github.com/COSC3020/theory-vs-practice-swilso59-1.git
 it looked like I was not being specific enough in that there would have to be multipe causes for a time difference of that 
 significants.
+
+I think many of the reasons I am giving are starting to become similar to the ones given in the previous repository. 
+I am hopefully explaining my reasoning in an understandable fashion.
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
