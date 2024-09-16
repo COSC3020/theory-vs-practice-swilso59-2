@@ -2,8 +2,9 @@
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
+
   - Asymptotic analysis ignores constant factors and lower order terms
-  - Hardware is anot often considered while conducting asymtotic analysis
+  - Hardware is not often considered while conducting asymtotic analysis
   - The use of loose bound during analysis. This could lead to an algorthim being much faster
     then the analysis suggests
 
@@ -11,6 +12,7 @@
   elements takes 5 seconds. Given what you know about the asymptotic complexity
   of search in a binary search tree, how long would you guess finding the same
   element in a search tree with 10,000 elements takes? Explain your reasoning.
+
   - We know that to search 1,000 elements it takes 5 seconds
   - We also know that binary search has a time complexity of $O(\log(n))$
   - Knowing this we can determine that the search time for 1,000 elements is related to $\log(1,000)$
@@ -22,6 +24,19 @@
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
-  complexity suggests a different time.
+  complexity suggests a different time
+  - It's unlikely that an unbalanced tree alone would cause such a huge time difference from the expected 6.65 seconds to 100 seconds
+  - While an unbalanced tree could increase the search time from logarithmic to linear, the change from 6.65 to 100 seconds makes me think that other factors are also envolved
+  - For example, if there were multiple programs running simultaneously, or you are running this search on a different system entirely
+  - The combination of an unbalanced tree and the senario which it is being run in could explain such a large difference in runtime
 
 Add your answers to this markdown file.
+
+## Plagiarism Acknowledgment
+
+
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
