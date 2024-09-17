@@ -29,15 +29,11 @@
   - While an unbalanced tree could increase the search time from logarithmic to linear, the change from 6.65 to 100 seconds makes me think that other factors are also envolved
   - For example, if there were multiple programs running simultaneously, or you are running this search on a different system entirely
   - The combination of an unbalanced tree and the senario which it is being run in could explain such a large difference in runtime
-  - Some additional reasons that could contribute to this large search time could be the implementation of the binary search tree, this time focusing on things like extra comparisions or
-    excessive logging of each step of the search could contribute to the change in runtime. If you are logging the elements at each comparision this could cause an increased time it takes to find the element being searched for.
-  - There could also be a change in the type of data being searched. If you are searching for an element in a set of integers this would take much less time for making the comparisions then searching for an elemenent in a set of strings which has nuch more complex comparisons then integer 
-    comparisons and could result in a longer runtime. 
-  - If a recurssive approach is used. Inefficient recursion like if you are making more recurssive calls then needed due to an unbalanced tree, can lead to excessive recursive calls which can cause an increase in memory usage and processing time an iterative approach would prevent this 
-    from happening.
-  - It seems that the main causes would be the type a data being searched, the system the algorithm is being run on, as well as if there are any other programs running simultaneously as the search is being conducted. 
-
-Add your answers to this markdown file.
+  - An additional reason that could contribute to this large search time are change in the datatype. This can cause a a longer time used for making comparisons.
+    In this case we could have a list of 1,000 integers, then try finding an element in a list of 10,000 strings.
+    The time it takes to make a string comparison is dependant on the length of the string where integers are compared in constant time.
+  - The main causes would be whether or not we have a balanced tree, the type a data being searched, the system the algorithm is being run on,
+    as well as if there are anyother programs running simultaneously while the search is being conducted.
 
 ## Plagiarism Acknowledgment
 
@@ -48,6 +44,10 @@ significants.
 
 I think many of the reasons I am giving are starting to become similar to the ones given in the previous repository. 
 I am hopefully explaining my reasoning in an understandable fashion.
+
+I was trying to think of examples to explain some of my reasons but kept leading myself toward the reasons overlapping.
+I added that the datatype being search could have a impact on the search time. I think this would also over lap with some of the 
+reasons I was trying to give. I think what I have now makes more sense. I also looked at the repository https://github.com/COSC3020/theory-vs-practice-swilso59.git
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
