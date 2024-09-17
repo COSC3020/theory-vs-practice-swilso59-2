@@ -31,11 +31,11 @@
   - The combination of an unbalanced tree and the senario which it is being run in could explain such a large difference in runtime
   - Some additional reasons that could contribute to this large search time could be the implementation of the binary search tree, this time focusing on things like extra comparisions or
     excessive logging of each step of the search could contribute to the change in runtime. If you are logging the elements at each comparision this could cause an increased time it takes to find the element being searched for.
-  - There could also be a change in the type of data being searched. If you are searching for an element in a set of integers this would take much less time then searching for an elemenent in a set of string as satring comparisons are much more complex then integer compariusions and
-    could result in a longer runtime. 
+  - There could also be a change in the type of data being searched. If you are searching for an element in a set of integers this would take much less time for making the comparisions then searching for an elemenent in a set of strings which has nuch more complex comparisons then integer 
+    comparisons and could result in a longer runtime. 
   - If a recurssive approach is used. Inefficient recursion like if you are making more recurssive calls then needed due to an unbalanced tree, can lead to excessive recursive calls which can cause an increase in memory usage and processing time an iterative approach would prevent this 
     from happening.
-  - It seems that the main causes would be the type a data being search, the system the algorithm is being run on, as well as if there are any other programs running simultaneously as the search is being conducted. 
+  - It seems that the main causes would be the type a data being searched, the system the algorithm is being run on, as well as if there are any other programs running simultaneously as the search is being conducted. 
 
 Add your answers to this markdown file.
 
